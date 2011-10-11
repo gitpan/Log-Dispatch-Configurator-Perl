@@ -1,4 +1,8 @@
 Revision history for Perl extension Log::Dispatch::Configurator::Perl
 
+0.011   8:23 2011/10/12
+        [no code changes: 0.01 could not build]
+        - fixed MANIFEST list
+
 0.01    7:34 2011/10/11
         - original version
