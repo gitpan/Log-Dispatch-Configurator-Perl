@@ -1,0 +1,25 @@
+use strict;
+use warnings;
+use Module::Build;
+
+my $builder = Module::Build->new(
+    module_name         => 'Log::Dispatch::Configurator::Perl',
+    license             => 'perl',
+    dist_author         => 'Dai Okabayashi <bayashi@cpan.org>',
+    dist_version_from   => 'lib/Log/Dispatch/Configurator/Perl.pm',
+    build_requires      => {
+        'Test::More' => 0.88,
+    },
+    requires => {
+        'Carp' => 0,
+        'Log::Dispatch::Config' => 0,
+    },
+    add_to_cleanup      => [ 'Log-Dispatch-Configurator-Perl-*' ],
+    meta_merge     => {
+      resources => {
+        repository  => 'http://github.com/bayashi/Log-Dispatch-Configurator-Perl'
+      }
+    },
+);
+
+$builder->create_build_script();
