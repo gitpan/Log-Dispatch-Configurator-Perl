@@ -1,5 +1,8 @@
 Revision history for Perl extension Log::Dispatch::Configurator::Perl
 
+0.013   23:10 2011/11/28
+        - fixed test
+
 0.012   23:49 2011/10/15
         [no code changes]
         - added dependency module

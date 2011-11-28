@@ -4,7 +4,7 @@ use warnings;
 use Carp qw/croak/;
 use parent 'Log::Dispatch::Configurator';
 
-our $VERSION = '0.012';
+our $VERSION = '0.013';
 
 sub new {
     my ($class, $file) = @_;
