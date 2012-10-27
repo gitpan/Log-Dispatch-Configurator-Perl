@@ -11,6 +11,7 @@ my $builder = Module::Build->new(
         'Test::More' => 0.88,
     },
     requires => {
+        'perl' => '5.6.2',
         'parent' => 0,
         'Carp' => 0,
         'Log::Dispatch::Config' => 0,
