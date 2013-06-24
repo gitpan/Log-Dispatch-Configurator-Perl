@@ -7,6 +7,9 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => 'Dai Okabayashi <bayashi@cpan.org>',
     dist_version_from   => 'lib/Log/Dispatch/Configurator/Perl.pm',
+    configure_requires  => {
+        'Module::Build' => 0.38,
+    },
     build_requires      => {
         'Test::More' => 0.88,
     },
@@ -14,7 +17,7 @@ my $builder = Module::Build->new(
         'perl' => '5.6.2',
         'parent' => 0,
         'Carp' => 0,
-        'Log::Dispatch::Config' => 0,
+        'Log::Dispatch::Configurator' => 0,
     },
     add_to_cleanup      => [ 'Log-Dispatch-Configurator-Perl-*' ],
     meta_merge     => {

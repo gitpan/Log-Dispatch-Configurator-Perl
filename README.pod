@@ -5,7 +5,7 @@ This is Perl module B<Log::Dispatch::Configurator::Perl>.
 
 =begin html
 
-<a href="http://travis-ci.org/bayashi/Log-Dispatch-Configurator-Perl"><img src="https://secure.travis-ci.org/bayashi/Log-Dispatch-Configurator-Perl.png"/></a>
+<a href="http://travis-ci.org/bayashi/Log-Dispatch-Configurator-Perl"><img src="https://secure.travis-ci.org/bayashi/Log-Dispatch-Configurator-Perl.png"/></a> <a href="https://coveralls.io/r/bayashi/Log-Dispatch-Configurator-Perl"><img src="https://coveralls.io/repos/bayashi/Log-Dispatch-Configurator-Perl/badge.png?branch=master"/></a>
 
 =end html
 

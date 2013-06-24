@@ -1,5 +1,11 @@
 Revision history for Perl extension Log::Dispatch::Configurator::Perl
 
+0.0132  Mon Jun 24 09:00:54 JST 2013
+    [NO CODE CHANGES]
+        - fixed a wrong dependency
+        - .gitignore
+        - travis.yml
+
 0.0131  Sun Oct 14 16:32:00 JST 2012
         [NO CODE CHANGES]
         - fixed for kwalitee
